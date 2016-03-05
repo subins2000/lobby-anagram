@@ -16,7 +16,7 @@ $this->addScript("game.js");
   <div class="letters"></div>
   <div class="input"></div>
   <div class="submit">
-    <a class='button'>Submit</a>
+    <a class='btn'>Submit</a>
     <div class='status'></div>
   </div>
   <div class="boxes">
