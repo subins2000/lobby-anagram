@@ -1,7 +1,6 @@
 <?php
 $this->addScript("jquery.scrollTo.js");
 $this->addScript("jquery.niceScroll.js");
-$this->addStyle("scrollbar.css");
 $this->addStyle("game.css");
 $this->addScript("game.js");
 ?>
