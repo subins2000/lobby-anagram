@@ -6,7 +6,7 @@
   "sub_category": "puzzles",
   "version" : "0.1.1",
   "requires" : {
-    "lobby" : [">=", "0.5"]
+    "lobby" : ">=0.5"
   },
   "author" : "Subin Siby",
   "author_page" : "http://subinsb.com",

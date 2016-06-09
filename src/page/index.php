@@ -6,7 +6,7 @@ $this->addScript("game.js");
 ?>
 <div class="contents">
   <div class="loading">
-    <img src="<?php echo APP_SRC;?>/src/image/loading.gif" />
+    <img src="<?php echo $this->srcURL;?>/src/image/loading.gif" />
   </div>
   <div class="controls">
     <a id="newGame">New</a>
@@ -23,7 +23,7 @@ $this->addScript("game.js");
       <div class='section' id='sec1'></div>
     </div>
   </div>
-  <audio src='<?php echo APP_SRC;?>/src/audio/wrong.mp3' id='wrong'></audio>
-  <audio src='<?php echo APP_SRC;?>/src/audio/correct.mp3' id='correct'></audio>
-  <audio src='<?php echo APP_SRC;?>/src/audio/select.mp3' id='select'></audio>
+  <audio src='<?php echo $this->srcURL;?>/src/audio/wrong.mp3' id='wrong'></audio>
+  <audio src='<?php echo $this->srcURL;?>/src/audio/correct.mp3' id='correct'></audio>
+  <audio src='<?php echo $this->srcURL;?>/src/audio/select.mp3' id='select'></audio>
 </div>
