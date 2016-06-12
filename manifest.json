@@ -4,7 +4,7 @@
   "short_description" : "Find words from scrambled letters",
   "category" : "games",
   "sub_category": "puzzles",
-  "version" : "0.1.1",
+  "version" : "0.2",
   "requires" : {
     "lobby" : ">=0.5"
   },
