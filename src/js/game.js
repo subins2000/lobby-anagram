@@ -23,14 +23,14 @@ $.extend(lobby.app, {
   },
 
   load: function() {
-    lobby.app.ajax("load.php", {
+    lobby.app.ar("load", {
       length: 12
     }, function(response) {
       response = JSON.parse(response);
       $("#workspace .letters").html(response.str);
       lobby.app.words = response.words;
       id = 1;
-      maxHeight = Math.round(($(window).height() - $("#workspace .boxes .boxes-inner .section#sec1").offset().top) / 27);
+      maxHeight = Math.round(($("#workspace").height() - $("#workspace .boxes .boxes-inner .section#sec1").offset().top) / 27);
       $.each(lobby.app.words, function(word) {
         h = "<div class='box'>";
         for (i = 0; i < word.length; i++) {
